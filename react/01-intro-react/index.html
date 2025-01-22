@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <!-- Cargat React -->
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+      <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>ReactApp</title>
+</head>
+<body>
+
+     <div id="root"></div><!--React necesita un contenedor HTML donde pueda "montar" la interfaz de usuario (UI) de la aplicación. -->
+                           <!--  El <div id="root"></div> es el elemento CONTENEDOR donde React renderiza y gestiona el contenido. -->
+
+    <script type="text/babel">  
+
+               const divRoot = document.querySelector( '#root' );//para mostrar h1Tag dentro del div root debe..
+         //..buscar el elemento q tenga el id de root( '#root' )
+
+        const nombre =  'Goku'
+        const h1Tag = <h1> hola, soy {nombre} </h1>;
+
+        ReactDOM.render( h1Tag, divRoot )// envia h1Tag y lo muestra en el divRoot 
+ 
+        //ahora le digo que muestre ese h1Tag dentro de ese divRoot
+
+    </script>
+
+</body>
+</html>
