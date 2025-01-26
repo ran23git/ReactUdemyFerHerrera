@@ -1,0 +1,12 @@
+abre consola del navegador
+
+backtics
+``
+Barras paralelas 
+||
+
+Barras invertidas
+\\
+/
+
+
