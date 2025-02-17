@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { FirstApp } from './FirstApp'; // Asegúrate de que esta línea esté correctamente escrita
+import { FirstApp } from './FirstApp'; 
+import { CounterApp} from './CounterApp';
 import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* No pasamos props, por lo que React usará los valores predeterminados */}
-    <FirstApp />
+    <CounterApp value={4}/>  
+
   </React.StrictMode>
 );
+
