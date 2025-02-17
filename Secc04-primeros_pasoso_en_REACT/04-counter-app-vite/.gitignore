@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Ignorar la carpeta Secc03-introduccion_JAVASCRIPT_moderno
+Secc03-introduccion_JAVASCRIPT_moderno/
+
+# Ignorar el archivo específico
+DOCUMENTACION de JAVASCRIPT udemy.txt
